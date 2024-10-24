@@ -1,0 +1,25 @@
+GET http://127.0.0.1:3500/api/products
+
+###
+GET http://127.0.0.1:3500/api/product/671a4767e43033a6de572692
+###
+
+POST http://127.0.0.1:3500/api/products
+Content-Type: application/json
+
+ {
+    "name": "Hp Tablet",
+    "quantity": 4,
+    "price": 2.9
+}
+
+###
+PUT http://127.0.0.1:3500/api/product/671a5dec69ab755fa82ebd8c
+Content-Type: application/json
+
+{
+    "name": "iCon Mobile"
+}
+
+###
+DELETE http://127.0.0.1:3500/api/product/671a5dec69ab755fa82ebd8c

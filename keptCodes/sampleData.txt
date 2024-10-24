@@ -1,0 +1,23 @@
+Some sample data to populate MongoDB Cluster
+[
+    {
+    "name": "SamSung Laptop",
+    "quantity": 46,
+    "price": 2300
+},
+{
+    "name": "Nokia",
+    "quantity": 6,
+    "price": 200.0
+},
+{
+    "name": "iPhone",
+    "quantity": 70,
+    "price": 90.88
+},
+{
+    "name": "iTel Mobile",
+    "quantity": 70,
+    "price": 67.89
+}
+]

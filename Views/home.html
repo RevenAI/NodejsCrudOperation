@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev App</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+
+<style>
+    /* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+header nav h1 {
+    font-size: 1.8rem;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.intro h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.cta-button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature-box {
+    background-color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.feature-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.feature-box p {
+    font-size: 1rem;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+</style>
+
+<body>
+    <header>
+        <nav>
+            <h1>Dev App</h1>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Welcome to Dev App</h2>
+            <p>This is a simple web application built with HTML, CSS, and JavaScript.</p>
+            <button class="cta-button">Get Started</button>
+        </section>
+
+        <section class="features">
+            <h2>Features</h2>
+            <div class="feature-box">
+                <h3>Fast</h3>
+                <p>Experience lightning-fast performance with our app.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Responsive</h3>
+                <p>Designed to work on all devices, large and small.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Easy to Use</h3>
+                <p>User-friendly interface for easy navigation.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Dev App. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Dev App</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+
+<style>
+    /* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header nav h1 {
+    font-size: 1.8rem;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+.about-section {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.team-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.team-member {
+    background-color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.team-member h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.team-member p {
+    font-size: 1rem;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+</style>
+
+<body>
+    <header>
+        <nav>
+            <h1>About Our Web Dev App</h1>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/features">Features</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about-section">
+            <h2>Who We Are</h2>
+            <p>We are a team of passionate developers who created this app to make web development easier for everyone.</p>
+            <p>Our mission is to provide developers with the tools they need to build fast, responsive, and modern web applications.</p>
+        </section>
+
+        <section class="team-section">
+            <h2>Meet the Team</h2>
+            <div class="team-member">
+                <h3>John Doe - Founder</h3>
+                <p>John is a full-stack developer with over 10 years of experience in building web applications.</p>
+            </div>
+            <div class="team-member">
+                <h3>Jane Smith - Lead Designer</h3>
+                <p>Jane is a UI/UX designer who ensures that our app is intuitive and user-friendly.</p>
+            </div>
+            <div class="team-member">
+                <h3>Mike Johnson - Developer</h3>
+                <p>Mike is a software engineer who specializes in backend development and performance optimization.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Web Dev App. All rights reserved.</p>
+    </footer>
+</body>
+</html>
